@@ -52,7 +52,7 @@ Middle Python / Fullstack разработчик из Томска. Опыт б�
 ---
 
 ## 📊 GitHub Статистика
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=R0D10Nq&show_icons=true&theme=dark)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=R0D10Nq&show_icons=true&theme=dark) 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=R0D10Nq&layout=compact&theme=dark)
 
 ---
