@@ -1,5 +1,6 @@
 # Привет, я Родион 👋
-
+ 🇷🇺 RU | 🇬🇧 [EN](./README.en.md)
+ 
 ## 🧑‍💻 Обо мне
 Python / Backend‑oriented Fullstack из Томска, 3,5+ года коммерческого опыта. Проектирую надёжные API и асинхронные сервисы, очереди и кеши, интеграции и CI/CD. Закрываю end‑to‑end фичи, снижаю техдолг и ускоряю релизы.
 
@@ -24,6 +25,10 @@ Python / Backend‑oriented Fullstack из Томска, 3,5+ года комм�
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)]()
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)]()
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=000000)]()
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)]()
+[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)]()
+[![Jaeger](https://img.shields.io/badge/Jaeger-65A30D?style=flat&logo=jaegertracing&logoColor=white)]()
+[![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat&logo=sentry&logoColor=white)]()
 
 ---
 
