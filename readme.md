@@ -1,7 +1,9 @@
 # Привет, я Родион 👋
 
 ## 🧑‍💻 Обо мне
-Middle Python / Fullstack разработчик из Томска. Опыт более 3 лет. Разрабатываю надёжный бэкенд и устраняю legacy-проблемы. Основной стек — Python (Django, DRF), PostgreSQL, Redis, Celery. Делаю интеграции, оптимизацию производительности и масштабируемые мультитенантные решения. Цель — Senior FullStack Developer.
+Python / Backend‑oriented Fullstack из Томска, 3,5+ года коммерческого опыта. Проектирую надёжные API и асинхронные сервисы, очереди и кеши, интеграции и CI/CD. Закрываю end‑to‑end фичи, снижаю техдолг и ускоряю релизы.
+
+Ключевые зоны: Django/DRF и FastAPI; Celery; PostgreSQL (+PostGIS), Redis; WebSockets/Channels и Flask‑SocketIO; Kafka/Redpanda; Vue 3 и React 18 + TypeScript; Docker/Compose, Nginx, GitHub Actions/GitLab CI; pytest/mypy/ruff; Prometheus/Sentry/OTEL. Цель — Senior FullStack Developer.
 
 ---
 
@@ -14,40 +16,56 @@ Middle Python / Fullstack разработчик из Томска. Опыт б�
 [![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)]()
 [![Celery](https://img.shields.io/badge/Celery-37814A?style=flat)]()
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)]()
+[![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)]()
+[![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)]()
 [![Vue](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vuedotjs&logoColor=4FC08D)]()
 [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)]()
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)]()
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)]()
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=000000)]()
 
 ---
 
 ## 📚 Стек — коротко
-**Backend:** Python, Django, DRF, Celery, Flask, FastAPI, WebSockets, JWT  
-**DB / Cache:** PostgreSQL, MySQL, Redis  
-**Frontend:** HTML5, SCSS (BEM), JS (ES6+), Vue.js, базовый React, GSAP, Swiper  
-**Infra / Tools:** Docker, Gunicorn, Fabric, GitLab CI, WSL, Linux  
-**QA / Code:** pytest (базово), ruff/flake8/black, pre-commit  
-**AI / LLM:** ChatGPT, prompt engineering, локальные LLM, интеграции для автогенерации контента  
+**Backend:** Python, Django, DRF, FastAPI, Flask, SQLAlchemy, Pydantic, Alembic, Celery, WebSockets/Channels, Flask‑SocketIO, JWT  
+**DB / Cache / GIS:** PostgreSQL (+ PostGIS), SQLite (FTS5), Redis  
+**Messaging / Streaming:** Kafka / Redpanda  
+**Frontend:** HTML5, SCSS (BEM), JS (ES6+), Vue 3 (Vite, Pinia/Vuetify/Element Plus), React 18 + TypeScript (Vite, Tailwind, React Router, React Query), Chart.js  
+**Infra / Tools:** Docker, Docker Compose, Nginx, Gunicorn, GitHub Actions, GitLab CI, WSL, Linux  
+**QA / Code:** pytest, coverage, mypy, ruff/flake8/black/isort, djlint, pre‑commit, ESLint/Prettier, Vitest  
+**Observability / Logging:** Prometheus, Sentry, OpenTelemetry, Jaeger, structlog  
+**AI / LLM:** Google Gemini, sentence‑transformers, LM Studio, embeddings  
 
 ---
 
 ## 🚀 Опыт и достижения
-- Мультитенантная платформа для 400+ лендингов и ~300 UI-модулей  
-- Реализовал динамическую замену шрифтов в админке, устранив юридические риски  
-- Миграция legacy-слайдеров на Swiper → меньше багов и проще поддержка  
-- JS-bookmarklet + internal API для диагностики страниц, ускорение работы QA  
-- Интеграции: AmoCRM, CallTouch, Telegram, email, антифрод  
+- Мультитенантная платформа для 400+ лендингов и ~300 UI‑модулей; автоматизации сократили выпуск нового лендинга с 2–3 дней до ~30 минут.  
+- Image‑pipeline (WebP + lazy‑load) → снижение LCP/времени загрузки ≈40%, рост SEO/UX‑метрик.  
+- Ввёл очереди и кеши (Celery + Redis), оптимизировал SQL и стабилизировал тяжелые процессы.  
+- CI/CD: пайплайны (GitHub Actions / GitLab CI), health‑checks и базовые rollback‑сценарии.  
+- Realtime и отчётность: WebSockets/Channels, PDF‑отчёты (WeasyPrint/ReportLab).  
+- Интеграции: платежи (Stripe), Telegram/email/вебхуки; безопасные API‑клиенты.  
 
 ---
 
 ## 📂 Репозитории
-- **FoodRadar** — pet-проект (Django/Flask)  
-- **dl_proj** — утилиты и скрипты  
-- **portable_doc_search** — поиск по документам  
-- **BydlanBot** — Telegram-боты (aiogram)  
-- **ImageProcessor** — обработка изображений, OpenCV  
-- **timeBotPF** — автоматизация и планировщик  
+- **qr0d10n** — fullstack портфолио‑проект: React 18 + TypeScript, FastAPI, Docker, CI/CD 
+    - ⇾ [посмотреть](https://github.com/R0D10Nq/qr0d10n)
+- **OrderWeaver** — event‑driven ядро: саги, Kafka/Redpanda, OTEL/Jaeger 
+    - ⇾ [посмотреть](https://github.com/R0D10Nq/order-weaver)
+- **PulseCourier** — платформа уведомлений: очереди/ретраи, S3, observability 
+    - ⇾ [посмотреть](https://github.com/R0D10Nq/pulse-courier)
+- **ai-mood-diary-bot** — Full‑stack: Telegram‑бот + веб‑дашборд, AI‑анализ настроения (Gemini), аналитика/отчёты 
+    - ⇾ [посмотреть](https://github.com/R0D10Nq/ai-mood-diary-bot)
+- **FoodRadar** — Full‑stack приложение для поиска ресторанов, real‑time и аналитика: Django/DRF + Channels, Stripe, PostGIS 
+    - ⇾ [посмотреть](https://github.com/R0D10Nq/FoodRadar)
+- **BydlanBot** - Умный Telegram‑бот с памятью и анализом профилей; интеграция локальных LLM (LM Studio), векторный поиск; хранение в SQLite. 
+    - ⇾ [посмотреть](https://github.com/R0D10Nq/BydlanBot)
+- **portable_doc_search** — FastAPI + SQLite FTS5 + Vue (поиск по PDF/MD) 
+    - ⇾ [посмотреть](https://github.com/R0D10Nq/portable_doc_search)
 
-Полный список → [github.com/R0D10Nq](https://github.com/R0D10Nq)
+Полный список → [тык](https://github.com/R0D10Nq?tab=repositories)
 
 ---
 
