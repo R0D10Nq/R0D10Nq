@@ -1,10 +1,12 @@
+
 # Привет, я Родион 👋
  🇷🇺 RU | 🇬🇧 [EN](./README.en.md)
  
 ## 🧑‍💻 Обо мне
 Python / Backend‑oriented Fullstack из Томска, 3,5+ года коммерческого опыта. Проектирую надёжные API и асинхронные сервисы, очереди и кеши, интеграции и CI/CD. Закрываю end‑to‑end фичи, снижаю техдолг и ускоряю релизы.
 
-Ключевые зоны: Django/DRF и FastAPI; Celery; PostgreSQL (+PostGIS), Redis; WebSockets/Channels и Flask‑SocketIO; Kafka/Redpanda; Vue 3 и React 18 + TypeScript; Docker/Compose, Nginx, GitHub Actions/GitLab CI; pytest/mypy/ruff; Prometheus/Sentry/OTEL. Цель — Senior FullStack Developer.
+Ключевые зоны: Django/DRF и FastAPI; Celery; PostgreSQL (+PostGIS), Redis; WebSockets/Channels и Flask‑SocketIO; Kafka/Redpanda; Vue 3 и React 18 + TypeScript; Docker/Compose, Nginx, GitHub Actions/GitLab CI; pytest/mypy/ruff; Prometheus/Sentry/OTEL. 
+Цель — Senior FullStack Developer.
 
 ---
 
@@ -33,14 +35,16 @@ Python / Backend‑oriented Fullstack из Томска, 3,5+ года комм�
 ---
 
 ## 📚 Стек — коротко
-**Backend:** Python, Django, DRF, FastAPI, Flask, SQLAlchemy, Pydantic, Alembic, Celery, WebSockets/Channels, Flask‑SocketIO, JWT  
-**DB / Cache / GIS:** PostgreSQL (+ PostGIS), SQLite (FTS5), Redis  
-**Messaging / Streaming:** Kafka / Redpanda  
-**Frontend:** HTML5, SCSS (BEM), JS (ES6+), Vue 3 (Vite, Pinia/Vuetify/Element Plus), React 18 + TypeScript (Vite, Tailwind, React Router, React Query), Chart.js  
-**Infra / Tools:** Docker, Docker Compose, Nginx, Gunicorn, GitHub Actions, GitLab CI, WSL, Linux  
-**QA / Code:** pytest, coverage, mypy, ruff/flake8/black/isort, djlint, pre‑commit, ESLint/Prettier, Vitest  
-**Observability / Logging:** Prometheus, Sentry, OpenTelemetry, Jaeger, structlog  
-**AI / LLM:** Google Gemini, sentence‑transformers, LM Studio, embeddings  
+
+ - **Backend:** Python, Django, DRF, FastAPI, Flask, SQLAlchemy, Pydantic, Alembic, Celery, WebSockets/Channels, Flask‑SocketIO, JWT
+ - **DB / Cache / GIS:** PostgreSQL (+ PostGIS), SQLite (FTS5), Redis
+ - **Messaging / Streaming:** Kafka / Redpanda
+ - **Frontend:** HTML5, SCSS (BEM), JS (ES6+), Vue 3 (Vite, Pinia/Vuetify/Element Plus), React 18 + TypeScript (Vite, Tailwind,
+   React Router, React Query), Chart.js
+ - **Infra / Tools:** Docker, Docker Compose, Nginx, Gunicorn, GitHub Actions, GitLab CI, WSL, Linux
+ - **QA / Code:** pytest, coverage, mypy, ruff/flake8/black/isort, djlint, pre‑commit, ESLint/Prettier, Vitest
+ - **Observability / Logging:** Prometheus, Sentry, OpenTelemetry, Jaeger, structlog
+ - **AI / LLM:** Google Gemini, sentence‑transformers, LM Studio, embeddings
 
 ---
 
