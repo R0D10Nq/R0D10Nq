@@ -85,6 +85,5 @@ Python / Backend‑oriented Fullstack из Томска, 3,5+ года комм�
 ---
 
 ## 📫 Контакты
-- GitHub: [R0D10Nq](https://github.com/R0D10Nq)  
 - Telegram: [@qr0d10n](https://t.me/qr0d10n)  
 - Email: q@r0d10n.ru
